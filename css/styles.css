@@ -1,0 +1,238 @@
+/*   COLOR PALETTE   */
+
+/* white color #ffffff */
+/* black color #000000 */
+
+/* basic color  #212121 */
+/* second text  #757575 */
+/* accent color #2196F3 */
+
+/* back-color   #2f303a */
+/* second-back  #f5f4fa */
+/* *** */
+
+/* ***** ***** ***** */
+/*     ALL PAGES     */
+/* ***** ***** ***** */
+
+:root {
+    --primary-white-color: #ffffff;
+    --black-color: #000000;
+
+    --first-text-color: #212121;
+    --second-text-color: #757575;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+
+    --accent-color: #2196f3;
+
+    --back-color: #2f303a;
+    --second-back-color: #f5f4fa;
+
+    --small-text-size: 14px;
+    --large-text-size: 36px;
+    --extra-large-text-size: 44px;
+
+    --main-letter-spacing: 0.03em;
+    --small-letter-spacing: 0.02em;
+    --medium-letter-spacing: 0.06em;
+}
+
+/* BODY */
+body {
+    background-color: var(--primary-white-color);
+    color: var(--first-text-color);
+    font-family: Roboto, Ubuntu, arial, sans-serif;
+    letter-spacing: var(--main-letter-spacing);
+}
+
+/* LIST */
+.list {
+    list-style: none;
+}
+
+/* LINK */
+.link {
+    text-decoration: none;
+}
+
+/* Nav, Contacts - hover, focus*/
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-contacts .link:hover,
+.site-contacts .link:focus,
+.footer-address .link:focus,
+.footer-address .link:hover {
+    color: var(--accent-color);
+}
+
+/* BUTTON */
+.button {
+    cursor: pointer;
+    color: var(--first-text-color);
+    background-color: var(--primary-white-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    line-height: 1.88;
+    letter-spacing: var(--medium-letter-spacing);
+}
+
+.button.secondary {
+    color: var(--first-text-color);
+    background-color: var(--second-back-color);
+    line-height: 1.62;
+}
+
+.button:focus,
+.button:hover {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+/* ***** ***** ***** */
+/*     INDEX PAGE    */
+/* ***** ***** ***** */
+
+/* HEADER*/
+
+/* LOGO */
+.logo {
+    color: var(--black-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    font-weight: 700;
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.logo:active,
+.logo:visited {
+    color: var(--black-color);
+}
+
+/* Site-nav */
+.site-nav .link {
+    color: var(--first-text-color);
+    font-weight: 500;
+    font-size: var(--small-text-size);
+    line-height: 1.14;
+    letter-spacing: var(--small-letter-spacing);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Contacts */
+.site-contacts .link {
+    color: var(--second-text-color);
+    font-weight: 500;
+    font-size: var(--small-text-size);
+    line-height: 1.14;
+    letter-spacing: var(--small-letter-spacing);
+}
+
+/* MAIN */
+
+/*Hero*/
+.hero {
+    background-color: var(--back-color);
+}
+
+.hero-title {
+    color: var(--primary-white-color);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: var(--extra-large-text-size);
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: var(--medium-letter-spacing);
+}
+
+/* SECTION */
+
+/* Потом скрыть правильно */
+.hidden {
+    color: var(--primary-white-color);
+}
+
+.section-subtitle {
+    font-size: var(--small-text-size);
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.section-title {
+    color: var(--first-text-color);
+    font-size: var(--large-text-size);
+    line-height: 1.17;
+    text-align: center;
+}
+
+.section-text {
+    color: var(--second-text-color);
+    font-size: var(--small-text-size);
+    line-height: 1.71;
+}
+
+/* Team */
+.team {
+    background-color: var(--second-back-color);
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+}
+
+.team-text {
+    color: var(--second-text-color);
+    line-height: 1.88;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--back-color);
+}
+
+.footer .logo,
+.footer .location {
+    color: var(--primary-white-color);
+}
+
+.footer .address-contacts {
+    color: var(--footer-text-color);
+}
+
+.footer .list {
+    font-style: normal;
+    font-size: var(--small-text-size);
+    line-height: 1.71;
+}
+
+/* ***** ***** ***** */
+/*   PORTFOLIO PAGE  */
+/* ***** ***** ***** */
+
+.project-title {
+    color: var(--first-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: var(--medium-letter-spacing);
+}
+
+.project-text {
+    color: var(--second-text-color);
+    line-height: 1.87;
+}
