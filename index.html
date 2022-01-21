@@ -18,18 +18,18 @@
         <link rel="stylesheet" href="./css/styles.css" />
     </head>
 
-    <!--Body-->
+    <!--body-->
     <body>
-        <!--Header-->
-        <header>
+        <!--header-->
+        <header class="header">
             <div class="container main-nav">
-                <!--Navigation-->
+                <!--navigation-->
                 <nav class="navigation">
-                    <!--Logo-->
+                    <!--logo-->
                     <a href="./index.html" class="logo link"
                         ><span class="logo-web">Web</span>Studio</a
                     >
-                    <!--Menu-->
+                    <!--menu-->
                     <ul class="site-nav list">
                         <li class="item">
                             <a href="./index.html" class="link current">Студия</a>
@@ -43,7 +43,7 @@
                     </ul>
                 </nav>
 
-                <!--Contacts-->
+                <!--contacts-->
                 <ul class="site-contacts list">
                     <li class="item">
                         <a href="mailto:info@devstudio.com" class="link"
@@ -57,22 +57,18 @@
             </div>
         </header>
 
-        <!--Main-->
+        <!--main-->
         <main>
-            <!--Hero-->
+            <!--hero-->
             <section class="hero">
                 <div class="container">
-                    <h1 class="hero-title">
-                        Эффективные решения
-                        <br />
-                        для вашего бизнеса
-                    </h1>
+                    <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                     <button type="button" class="button primary">Заказать услугу</button>
                 </div>
             </section>
 
-            <!--Specifics-->
-            <section class="section">
+            <!--specifics-->
+            <section class="section no-bottom-padding">
                 <div class="container">
                     <!--visually-hidden-->
                     <h2 class="visually-hidden" aria-hidden="true" tabindex="-1">
@@ -112,7 +108,7 @@
                 </div>
             </section>
 
-            <!--Occupation-->
+            <!--occupation-->
             <section class="section">
                 <div class="container">
                     <h2 class="section-title">Чем мы занимаемся</h2>
@@ -148,64 +144,76 @@
                 </div>
             </section>
 
-            <!--Team-->
+            <!--team-->
             <section class="section team">
                 <div class="container">
                     <h2 class="section-title">Наша команда</h2>
-                    <ul class="list">
-                        <li>
+                    <ul class="team-list list">
+                        <li class="item">
                             <img
+                                class="image"
                                 src="./images/comand_1.jpg"
                                 alt="Игорь Демьяненко"
                                 width="270"
                             />
-                            <h3 class="team-subtitle">Игорь Демьяненко</h3>
-                            <p class="team-text">Product Designer</p>
+                            <div class="team-content">
+                                <h3 class="team-subtitle">Игорь Демьяненко</h3>
+                                <p class="team-text">Product Designer</p>
+                            </div>
                         </li>
-                        <li>
+                        <li class="item">
                             <img
+                                class="image"
                                 src="./images/comand_2.jpg"
                                 alt="Ольга Репина"
                                 width="270"
                             />
-                            <h3 class="team-subtitle">Ольга Репина</h3>
-                            <p class="team-text">Frontend Developer</p>
+                            <div class="team-content">
+                                <h3 class="team-subtitle">Ольга Репина</h3>
+                                <p class="team-text">Frontend Developer</p>
+                            </div>
                         </li>
-                        <li>
+                        <li class="item">
                             <img
+                                class="image"
                                 src="./images/comand_3.jpg"
                                 alt="Николай Тарасов"
                                 width="270"
                             />
-                            <h3 class="team-subtitle">Николай Тарасов</h3>
-                            <p class="team-text">Marketing</p>
+                            <div class="team-content">
+                                <h3 class="team-subtitle">Николай Тарасов</h3>
+                                <p class="team-text">Marketing</p>
+                            </div>
                         </li>
-                        <li>
+                        <li class="item">
                             <img
+                                class="image"
                                 src="./images/comand_4.jpg"
                                 alt="Михаил Ермаков"
                                 width="270"
                             />
-                            <h3 class="team-subtitle">Михаил Ермаков</h3>
-                            <p class="team-text">UI Designer</p>
+                            <div class="team-content">
+                                <h3 class="team-subtitle">Михаил Ермаков</h3>
+                                <p class="team-text">UI Designer</p>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </section>
         </main>
 
-        <!--Footer-->
+        <!--footer-->
         <footer class="footer">
             <div class="container">
-                <!--Logo-->
+                <!--logo-->
                 <a href="./index.html" class="logo link"
                     ><span class="logo-web">Web</span>Studio</a
                 >
 
-                <!--Address-->
+                <!--address-->
                 <address class="footer-address">
-                    <ul class="list">
-                        <li>
+                    <ul class="address-list list">
+                        <li class="item">
                             <a
                                 target="_blank"
                                 rel="nofollow"
@@ -214,16 +222,16 @@
                                 >г. Киев, пр-т Леси Украинки, 26
                             </a>
                         </li>
-                        <li>
+                        <li class="item">
                             <a
                                 href="mailto:info@devstudio.com"
                                 class="address-contacts link"
                                 >info@devstudio.com</a
                             >
                         </li>
-                        <li>
+                        <li class="item">
                             <a href="tel:+380961111111" class="address-contacts link"
-                                >+38 096 111 11 11</a
+                                >+38 099 111 11 11</a
                             >
                         </li>
                     </ul>
